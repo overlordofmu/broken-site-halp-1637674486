@@ -3,6 +3,9 @@
   publish = "dist/"
   command = "npm run build"
 
+[build.environment]
+  NETLIFY_USE_YARN = "true"
+
 [template.environment]
   API_URL = "your Google Maps API endpoint"
   API_TOKEN = "your Google Maps API key"
